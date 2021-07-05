@@ -1,5 +1,5 @@
-students = []
-score_list = []
+students = [1,2,3,4]
+score_list = [24,33,50,88]
 
 for _ in range(int(input())):
 

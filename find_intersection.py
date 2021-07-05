@@ -1,3 +1,5 @@
+# find intersection between two lists
+
 def FindIntersection(strArr):
 
   setOne = set(strArr[0].split(", "))

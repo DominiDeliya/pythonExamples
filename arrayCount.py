@@ -1,3 +1,5 @@
+# count items in an array which are divide by 3 or 5
+
 arr = [2,3,5,10,6,15]
 count_num = 0
 

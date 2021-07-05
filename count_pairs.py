@@ -1,4 +1,5 @@
-ar = 1 ,1 ,3 ,1 ,2 ,1 ,3 ,3 ,3 ,3
+# count the number pairs in a given array
+ar = 1 ,1 ,3 ,2 ,1 ,3 ,3 ,3 ,3
 
 ar = list(map(int, ar))
 ar.sort()

@@ -1,3 +1,7 @@
+#small program that computes arithmetic expressions in postfix notation,
+#also known as reverse polish notation or RPN.
+#used lambda and math function
+
 import math
 operators = {
     "+": (lambda a, b: a+b),
@@ -13,7 +17,9 @@ def calc(expression):
      stack  = []
 
      for token in tokens:
+         print(stack)
          if token in operators:
+
              if token != "sqrt":
                 arg1 = stack.pop()
                 arg2 = stack.pop()
